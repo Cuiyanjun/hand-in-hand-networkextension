@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92A2E6981E9CB84F00F93512 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A2E6971E9CB84F00F93512 /* AppDelegate.swift */; };
+		92A2E69A1E9CB84F00F93512 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A2E6991E9CB84F00F93512 /* ViewController.swift */; };
+		92A2E69D1E9CB84F00F93512 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A2E69B1E9CB84F00F93512 /* Main.storyboard */; };
+		92A2E69F1E9CB84F00F93512 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92A2E69E1E9CB84F00F93512 /* Assets.xcassets */; };
+		92A2E6A21E9CB84F00F93512 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92A2E6A01E9CB84F00F93512 /* LaunchScreen.storyboard */; };
+		92A2E6AD1E9CB85000F93512 /* proxydumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A2E6AC1E9CB85000F93512 /* proxydumpTests.swift */; };
+		92A2E6B81E9CB85000F93512 /* proxydumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A2E6B71E9CB85000F93512 /* proxydumpUITests.swift */; };
+		92A2E6DE1E9CD3DD00F93512 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A2E6DD1E9CD3DD00F93512 /* NetworkExtension.framework */; };
+		92A2E6E11E9CD4A000F93512 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A2E6E01E9CD4A000F93512 /* PacketTunnelProvider.swift */; };
+		92A2E6E31E9E2C7800F93512 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A2E6E21E9E2C7800F93512 /* Security.framework */; };
+		92A2E6E51E9E2C7F00F93512 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A2E6E41E9E2C7F00F93512 /* SystemConfiguration.framework */; };
+		92A2E6E61E9E3C4F00F93512 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A2E6DD1E9CD3DD00F93512 /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92A2E6A91E9CB84F00F93512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A2E68C1E9CB84F00F93512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A2E6931E9CB84F00F93512;
+			remoteInfo = proxydump;
+		};
+		92A2E6B41E9CB85000F93512 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92A2E68C1E9CB84F00F93512 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A2E6931E9CB84F00F93512;
+			remoteInfo = proxydump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92A2E6941E9CB84F00F93512 /* proxydump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proxydump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A2E6971E9CB84F00F93512 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92A2E6991E9CB84F00F93512 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92A2E69C1E9CB84F00F93512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		92A2E69E1E9CB84F00F93512 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92A2E6A11E9CB84F00F93512 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92A2E6A31E9CB84F00F93512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A2E6A81E9CB84F00F93512 /* proxydumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proxydumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A2E6AC1E9CB85000F93512 /* proxydumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proxydumpTests.swift; sourceTree = "<group>"; };
+		92A2E6AE1E9CB85000F93512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A2E6B31E9CB85000F93512 /* proxydumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proxydumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A2E6B71E9CB85000F93512 /* proxydumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proxydumpUITests.swift; sourceTree = "<group>"; };
+		92A2E6B91E9CB85000F93512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A2E6C81E9CB86200F93512 /* proxydump.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = proxydump.entitlements; sourceTree = "<group>"; };
+		92A2E6CF1E9CD32300F93512 /* PacketTunnelProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PacketTunnelProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A2E6D31E9CD32300F93512 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92A2E6DC1E9CD3CD00F93512 /* PacketTunnelProvider.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PacketTunnelProvider.entitlements; sourceTree = "<group>"; };
+		92A2E6DD1E9CD3DD00F93512 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		92A2E6DF1E9CD4A000F93512 /* PacketTunnelProvider-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PacketTunnelProvider-Bridging-Header.h"; sourceTree = "<group>"; };
+		92A2E6E01E9CD4A000F93512 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		92A2E6E21E9E2C7800F93512 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		92A2E6E41E9E2C7F00F93512 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92A2E6911E9CB84F00F93512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A2E6E61E9E3C4F00F93512 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A2E6A51E9CB84F00F93512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A2E6B01E9CB85000F93512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A2E6CC1E9CD32300F93512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A2E6E51E9E2C7F00F93512 /* SystemConfiguration.framework in Frameworks */,
+				92A2E6E31E9E2C7800F93512 /* Security.framework in Frameworks */,
+				92A2E6DE1E9CD3DD00F93512 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92A2E68B1E9CB84F00F93512 = {
+			isa = PBXGroup;
+			children = (
+				92A2E6961E9CB84F00F93512 /* proxydump */,
+				92A2E6AB1E9CB85000F93512 /* proxydumpTests */,
+				92A2E6B61E9CB85000F93512 /* proxydumpUITests */,
+				92A2E6D01E9CD32300F93512 /* PacketTunnelProvider */,
+				92A2E6951E9CB84F00F93512 /* Products */,
+				92A2E6C51E9CB86200F93512 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92A2E6951E9CB84F00F93512 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92A2E6941E9CB84F00F93512 /* proxydump.app */,
+				92A2E6A81E9CB84F00F93512 /* proxydumpTests.xctest */,
+				92A2E6B31E9CB85000F93512 /* proxydumpUITests.xctest */,
+				92A2E6CF1E9CD32300F93512 /* PacketTunnelProvider.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92A2E6961E9CB84F00F93512 /* proxydump */ = {
+			isa = PBXGroup;
+			children = (
+				92A2E6C81E9CB86200F93512 /* proxydump.entitlements */,
+				92A2E6971E9CB84F00F93512 /* AppDelegate.swift */,
+				92A2E6991E9CB84F00F93512 /* ViewController.swift */,
+				92A2E69B1E9CB84F00F93512 /* Main.storyboard */,
+				92A2E69E1E9CB84F00F93512 /* Assets.xcassets */,
+				92A2E6A01E9CB84F00F93512 /* LaunchScreen.storyboard */,
+				92A2E6A31E9CB84F00F93512 /* Info.plist */,
+			);
+			path = proxydump;
+			sourceTree = "<group>";
+		};
+		92A2E6AB1E9CB85000F93512 /* proxydumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				92A2E6AC1E9CB85000F93512 /* proxydumpTests.swift */,
+				92A2E6AE1E9CB85000F93512 /* Info.plist */,
+			);
+			path = proxydumpTests;
+			sourceTree = "<group>";
+		};
+		92A2E6B61E9CB85000F93512 /* proxydumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				92A2E6B71E9CB85000F93512 /* proxydumpUITests.swift */,
+				92A2E6B91E9CB85000F93512 /* Info.plist */,
+			);
+			path = proxydumpUITests;
+			sourceTree = "<group>";
+		};
+		92A2E6C51E9CB86200F93512 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A2E6E41E9E2C7F00F93512 /* SystemConfiguration.framework */,
+				92A2E6E21E9E2C7800F93512 /* Security.framework */,
+				92A2E6DD1E9CD3DD00F93512 /* NetworkExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92A2E6D01E9CD32300F93512 /* PacketTunnelProvider */ = {
+			isa = PBXGroup;
+			children = (
+				92A2E6DC1E9CD3CD00F93512 /* PacketTunnelProvider.entitlements */,
+				92A2E6D31E9CD32300F93512 /* Info.plist */,
+				92A2E6E01E9CD4A000F93512 /* PacketTunnelProvider.swift */,
+				92A2E6DF1E9CD4A000F93512 /* PacketTunnelProvider-Bridging-Header.h */,
+			);
+			path = PacketTunnelProvider;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92A2E6931E9CB84F00F93512 /* proxydump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A2E6BC1E9CB85000F93512 /* Build configuration list for PBXNativeTarget "proxydump" */;
+			buildPhases = (
+				92A2E6901E9CB84F00F93512 /* Sources */,
+				92A2E6911E9CB84F00F93512 /* Frameworks */,
+				92A2E6921E9CB84F00F93512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = proxydump;
+			productName = proxydump;
+			productReference = 92A2E6941E9CB84F00F93512 /* proxydump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		92A2E6A71E9CB84F00F93512 /* proxydumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A2E6BF1E9CB85000F93512 /* Build configuration list for PBXNativeTarget "proxydumpTests" */;
+			buildPhases = (
+				92A2E6A41E9CB84F00F93512 /* Sources */,
+				92A2E6A51E9CB84F00F93512 /* Frameworks */,
+				92A2E6A61E9CB84F00F93512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A2E6AA1E9CB84F00F93512 /* PBXTargetDependency */,
+			);
+			name = proxydumpTests;
+			productName = proxydumpTests;
+			productReference = 92A2E6A81E9CB84F00F93512 /* proxydumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		92A2E6B21E9CB85000F93512 /* proxydumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A2E6C21E9CB85000F93512 /* Build configuration list for PBXNativeTarget "proxydumpUITests" */;
+			buildPhases = (
+				92A2E6AF1E9CB85000F93512 /* Sources */,
+				92A2E6B01E9CB85000F93512 /* Frameworks */,
+				92A2E6B11E9CB85000F93512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92A2E6B51E9CB85000F93512 /* PBXTargetDependency */,
+			);
+			name = proxydumpUITests;
+			productName = proxydumpUITests;
+			productReference = 92A2E6B31E9CB85000F93512 /* proxydumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		92A2E6CE1E9CD32300F93512 /* PacketTunnelProvider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92A2E6D71E9CD32300F93512 /* Build configuration list for PBXNativeTarget "PacketTunnelProvider" */;
+			buildPhases = (
+				92A2E6CB1E9CD32300F93512 /* Sources */,
+				92A2E6CC1E9CD32300F93512 /* Frameworks */,
+				92A2E6CD1E9CD32300F93512 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PacketTunnelProvider;
+			productName = PacketTunnelProvider;
+			productReference = 92A2E6CF1E9CD32300F93512 /* PacketTunnelProvider.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92A2E68C1E9CB84F00F93512 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Lucifer;
+				TargetAttributes = {
+					92A2E6931E9CB84F00F93512 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4E7ENZZKXP;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+					92A2E6A71E9CB84F00F93512 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4E7ENZZKXP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92A2E6931E9CB84F00F93512;
+					};
+					92A2E6B21E9CB85000F93512 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4E7ENZZKXP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 92A2E6931E9CB84F00F93512;
+					};
+					92A2E6CE1E9CD32300F93512 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4E7ENZZKXP;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.NetworkExtensions = {
+								enabled = 1;
+							};
+							com.apple.VPNLite = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 92A2E68F1E9CB84F00F93512 /* Build configuration list for PBXProject "proxydump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92A2E68B1E9CB84F00F93512;
+			productRefGroup = 92A2E6951E9CB84F00F93512 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92A2E6931E9CB84F00F93512 /* proxydump */,
+				92A2E6A71E9CB84F00F93512 /* proxydumpTests */,
+				92A2E6B21E9CB85000F93512 /* proxydumpUITests */,
+				92A2E6CE1E9CD32300F93512 /* PacketTunnelProvider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92A2E6921E9CB84F00F93512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A2E6A21E9CB84F00F93512 /* LaunchScreen.storyboard in Resources */,
+				92A2E69F1E9CB84F00F93512 /* Assets.xcassets in Resources */,
+				92A2E69D1E9CB84F00F93512 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A2E6A61E9CB84F00F93512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A2E6B11E9CB85000F93512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A2E6CD1E9CD32300F93512 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92A2E6901E9CB84F00F93512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A2E69A1E9CB84F00F93512 /* ViewController.swift in Sources */,
+				92A2E6981E9CB84F00F93512 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A2E6A41E9CB84F00F93512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A2E6AD1E9CB85000F93512 /* proxydumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A2E6AF1E9CB85000F93512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A2E6B81E9CB85000F93512 /* proxydumpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92A2E6CB1E9CD32300F93512 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A2E6E11E9CD4A000F93512 /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92A2E6AA1E9CB84F00F93512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A2E6931E9CB84F00F93512 /* proxydump */;
+			targetProxy = 92A2E6A91E9CB84F00F93512 /* PBXContainerItemProxy */;
+		};
+		92A2E6B51E9CB85000F93512 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92A2E6931E9CB84F00F93512 /* proxydump */;
+			targetProxy = 92A2E6B41E9CB85000F93512 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		92A2E69B1E9CB84F00F93512 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A2E69C1E9CB84F00F93512 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		92A2E6A01E9CB84F00F93512 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92A2E6A11E9CB84F00F93512 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92A2E6BA1E9CB85000F93512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92A2E6BB1E9CB85000F93512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92A2E6BD1E9CB85000F93512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = proxydump/proxydump.entitlements;
+				DEVELOPMENT_TEAM = 4E7ENZZKXP;
+				INFOPLIST_FILE = proxydump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.proxydump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92A2E6BE1E9CB85000F93512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = proxydump/proxydump.entitlements;
+				DEVELOPMENT_TEAM = 4E7ENZZKXP;
+				INFOPLIST_FILE = proxydump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.proxydump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		92A2E6C01E9CB85000F93512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4E7ENZZKXP;
+				INFOPLIST_FILE = proxydumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.proxydumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/proxydump.app/proxydump";
+			};
+			name = Debug;
+		};
+		92A2E6C11E9CB85000F93512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4E7ENZZKXP;
+				INFOPLIST_FILE = proxydumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.proxydumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/proxydump.app/proxydump";
+			};
+			name = Release;
+		};
+		92A2E6C31E9CB85000F93512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4E7ENZZKXP;
+				INFOPLIST_FILE = proxydumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.proxydumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = proxydump;
+			};
+			name = Debug;
+		};
+		92A2E6C41E9CB85000F93512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4E7ENZZKXP;
+				INFOPLIST_FILE = proxydumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.proxydumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = proxydump;
+			};
+			name = Release;
+		};
+		92A2E6D81E9CD32300F93512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PacketTunnelProvider/PacketTunnelProvider.entitlements;
+				DEVELOPMENT_TEAM = 4E7ENZZKXP;
+				INFOPLIST_FILE = PacketTunnelProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.proxydump.PacketTunnelProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PacketTunnelProvider/PacketTunnelProvider-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		92A2E6D91E9CD32300F93512 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PacketTunnelProvider/PacketTunnelProvider.entitlements;
+				DEVELOPMENT_TEAM = 4E7ENZZKXP;
+				INFOPLIST_FILE = PacketTunnelProvider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lucifer.proxydump.PacketTunnelProvider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PacketTunnelProvider/PacketTunnelProvider-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92A2E68F1E9CB84F00F93512 /* Build configuration list for PBXProject "proxydump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A2E6BA1E9CB85000F93512 /* Debug */,
+				92A2E6BB1E9CB85000F93512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A2E6BC1E9CB85000F93512 /* Build configuration list for PBXNativeTarget "proxydump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A2E6BD1E9CB85000F93512 /* Debug */,
+				92A2E6BE1E9CB85000F93512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A2E6BF1E9CB85000F93512 /* Build configuration list for PBXNativeTarget "proxydumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A2E6C01E9CB85000F93512 /* Debug */,
+				92A2E6C11E9CB85000F93512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A2E6C21E9CB85000F93512 /* Build configuration list for PBXNativeTarget "proxydumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A2E6C31E9CB85000F93512 /* Debug */,
+				92A2E6C41E9CB85000F93512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92A2E6D71E9CD32300F93512 /* Build configuration list for PBXNativeTarget "PacketTunnelProvider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92A2E6D81E9CD32300F93512 /* Debug */,
+				92A2E6D91E9CD32300F93512 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92A2E68C1E9CB84F00F93512 /* Project object */;
+}
